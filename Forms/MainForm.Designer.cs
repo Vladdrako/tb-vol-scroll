@@ -76,7 +76,7 @@ namespace tb_vol_scroll
             this.AudioPlaybackDevicesMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.AudioPlaybackDevicesMenuItem.Name = "AudioPlaybackDevicesMenuItem";
             this.AudioPlaybackDevicesMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.AudioPlaybackDevicesMenuItem.Text = "Audio Playback Devices";
+            this.AudioPlaybackDevicesMenuItem.Text = "Пристрої відтворення звуку";
             this.AudioPlaybackDevicesMenuItem.Click += new System.EventHandler(this.AudioPlaybackDevicesMenuItem_Click);
             // 
             // SystemVolumeMixerMenuItem
@@ -87,7 +87,7 @@ namespace tb_vol_scroll
             this.SystemVolumeMixerMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.SystemVolumeMixerMenuItem.Name = "SystemVolumeMixerMenuItem";
             this.SystemVolumeMixerMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.SystemVolumeMixerMenuItem.Text = "System Volume Mixer";
+            this.SystemVolumeMixerMenuItem.Text = "Системний мікшер гучності";
             this.SystemVolumeMixerMenuItem.Click += new System.EventHandler(this.SystemVolumeMixerMenuItem_Click);
             // 
             // VolumeSliderControlMenuItem
@@ -99,7 +99,7 @@ namespace tb_vol_scroll
             this.VolumeSliderControlMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.VolumeSliderControlMenuItem.Name = "VolumeSliderControlMenuItem";
             this.VolumeSliderControlMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.VolumeSliderControlMenuItem.Text = "Volume Slider Control";
+            this.VolumeSliderControlMenuItem.Text = "Повзунок гучності";
             this.VolumeSliderControlMenuItem.Click += new System.EventHandler(this.VolumeSliderControlMenuItem_Click);
             // 
             // SeparatorMenuItem3
@@ -125,7 +125,7 @@ namespace tb_vol_scroll
             this.OptionsMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.OptionsMenuItem.Name = "OptionsMenuItem";
             this.OptionsMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.OptionsMenuItem.Text = "Options";
+            this.OptionsMenuItem.Text = "Параметри";
             // 
             // ConfigurationMenuItem
             // 
@@ -133,7 +133,7 @@ namespace tb_vol_scroll
             this.ConfigurationMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.ConfigurationMenuItem.Name = "ConfigurationMenuItem";
             this.ConfigurationMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.ConfigurationMenuItem.Text = "Configuration";
+            this.ConfigurationMenuItem.Text = "Конфігурація";
             this.ConfigurationMenuItem.Click += new System.EventHandler(this.ConfigurationMenuItem_Click);
             // 
             // CheckForUpdatesMenuItem
@@ -142,7 +142,7 @@ namespace tb_vol_scroll
             this.CheckForUpdatesMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.CheckForUpdatesMenuItem.Name = "CheckForUpdatesMenuItem";
             this.CheckForUpdatesMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.CheckForUpdatesMenuItem.Text = "Check For Updates";
+            this.CheckForUpdatesMenuItem.Text = "Перевірка оновлень";
             this.CheckForUpdatesMenuItem.Click += new System.EventHandler(this.CheckForUpdatesMenuItem_Click);
             // 
             // SeperatorMenuItem4
@@ -155,7 +155,7 @@ namespace tb_vol_scroll
             this.OpenCurrentDirectoryMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.OpenCurrentDirectoryMenuItem.Name = "OpenCurrentDirectoryMenuItem";
             this.OpenCurrentDirectoryMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.OpenCurrentDirectoryMenuItem.Text = "Open Current Directory";
+            this.OpenCurrentDirectoryMenuItem.Text = "Відкрити поточний каталог";
             this.OpenCurrentDirectoryMenuItem.Click += new System.EventHandler(this.OpenCurrentDirectoryMenuItem_Click);
             // 
             // OpenStartupDirectoryMenuItem
@@ -163,7 +163,7 @@ namespace tb_vol_scroll
             this.OpenStartupDirectoryMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.OpenStartupDirectoryMenuItem.Name = "OpenStartupDirectoryMenuItem";
             this.OpenStartupDirectoryMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.OpenStartupDirectoryMenuItem.Text = "Open Startup Directory";
+            this.OpenStartupDirectoryMenuItem.Text = "Відкрийте каталог автозавапуску";
             this.OpenStartupDirectoryMenuItem.Click += new System.EventHandler(this.OpenStartupDirectoryMenuItem_Click);
             // 
             // SeparatorMenuItem2
@@ -176,7 +176,7 @@ namespace tb_vol_scroll
             this.RestartNormalMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.RestartNormalMenuItem.Name = "RestartNormalMenuItem";
             this.RestartNormalMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.RestartNormalMenuItem.Text = "Restart";
+            this.RestartNormalMenuItem.Text = "Перезавантажити";
             this.RestartNormalMenuItem.Click += new System.EventHandler(this.RestartNormalMenuItem_Click);
             // 
             // RestartAdministratorMenuItem
@@ -184,7 +184,7 @@ namespace tb_vol_scroll
             this.RestartAdministratorMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.RestartAdministratorMenuItem.Name = "RestartAdministratorMenuItem";
             this.RestartAdministratorMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.RestartAdministratorMenuItem.Text = "Restart (Administrator)";
+            this.RestartAdministratorMenuItem.Text = "Перезавантажити (Адміністратор)";
             this.RestartAdministratorMenuItem.Click += new System.EventHandler(this.RestartAdministratorMenuItem_Click);
             // 
             // ExitMenuItem
@@ -193,7 +193,7 @@ namespace tb_vol_scroll
             this.ExitMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.ExitMenuItem.Name = "ExitMenuItem";
             this.ExitMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.ExitMenuItem.Text = "Exit";
+            this.ExitMenuItem.Text = "Вийти";
             this.ExitMenuItem.Click += new System.EventHandler(this.ExitMenuItem_Click);
             // 
             // BarTextLabel
